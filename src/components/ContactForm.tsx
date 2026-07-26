@@ -15,11 +15,48 @@ export function ContactForm({
   id,
 }: ContactFormProps) {
   const [submitted, setSubmitted] = useState(false);
+  const [pending, setPending] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const dark = variant === "dark";
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
+    setError(null);
+    setPending(true);
+
+    const form = e.currentTarget;
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          firstName: data.get("firstName"),
+          lastName: data.get("lastName"),
+          lawFirm: data.get("lawFirm"),
+          email: data.get("email"),
+          phone: data.get("phone"),
+          state: data.get("state"),
+          message: data.get("message") ?? "",
+        }),
+      });
+
+      const payload = (await res.json().catch(() => ({}))) as {
+        error?: string;
+      };
+
+      if (!res.ok) {
+        setError(payload.error ?? "Something went wrong. Please try again.");
+        return;
+      }
+
+      setSubmitted(true);
+    } catch {
+      setError("Network error. Please check your connection and try again.");
+    } finally {
+      setPending(false);
+    }
   }
 
   if (submitted) {
@@ -156,11 +193,21 @@ export function ContactForm({
         </div>
       )}
 
+      {error && (
+        <p
+          role="alert"
+          className={`text-sm ${dark ? "text-red-300" : "text-red-700"}`}
+        >
+          {error}
+        </p>
+      )}
+
       <button
         type="submit"
-        className="inline-flex w-full items-center justify-center bg-seafoam px-8 py-3.5 font-headline text-base font-medium text-royal transition-colors hover:bg-seafoam-deep sm:w-auto"
+        disabled={pending}
+        className="inline-flex w-full items-center justify-center bg-seafoam px-8 py-3.5 font-headline text-base font-medium text-royal transition-colors hover:bg-seafoam-deep disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
       >
-        Connect With Us
+        {pending ? "Sending..." : "Connect With Us"}
       </button>
 
       <p className={`text-xs leading-relaxed ${dark ? "text-white/40" : "text-muted"}`}>

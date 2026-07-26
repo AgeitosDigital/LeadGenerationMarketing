@@ -1,8 +1,8 @@
-# Google Ads — Consumer MVA Lead Gen
+# Google Ads - Consumer MVA Lead Gen
 
 **Audience:** People who just got into a car accident  
 **Goal:** Capture injury leads to sell to PI law firms  
-**Landing page:** A consumer intake / case-review form (not the firm partner page)  
+**Landing page:** `/free-case-review`  
 **Creative:** `display-1200x628.png`
 
 ---
@@ -18,7 +18,7 @@
 5. No Fee Unless You Win
 6. Car Accident? Get Help
 7. Free Injury Case Review
-8. Crash Victims — Call Now
+8. Crash Victims - Call Now
 9. Know Your Legal Options
 10. Auto Accident Help Now
 11. Injured? Don't Wait
@@ -31,7 +31,7 @@
 
 1. Injured in a crash? Get a free case review and connect with an experienced injury attorney.
 2. Don't face the insurance company alone. Free consultation for car accident victims.
-3. Hurt in an auto accident? Find out if you have a case — free review, no obligation.
+3. Hurt in an auto accident? Find out if you have a case - free review, no obligation.
 4. Speak with a personal injury attorney about your crash. No fee unless you win.
 
 ### Path fields (optional)
@@ -41,7 +41,7 @@
 
 ### Final URL
 
-`https://YOUR-DOMAIN.com/` ← point to a consumer lead form, not `/contact#partner`
+`https://YOUR-DOMAIN.com/free-case-review`
 
 ---
 
@@ -51,7 +51,7 @@
 | --- | --- |
 | Short headline | Injured in a Crash? |
 | Long headline | Injured in a car accident? Get a free case review today |
-| Description | Free case review for car accident victims. Connect with an injury attorney — no fee unless you win. |
+| Description | Free case review for car accident victims. Connect with an injury attorney - no fee unless you win. |
 | Business name | Ageitos Advertising |
 | CTA | Get quote / Learn more / Contact us |
 | Image | `display-1200x628.png` |

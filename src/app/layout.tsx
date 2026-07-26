@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
 import { Lexend_Deca, Source_Sans_3 } from "next/font/google";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
 import { RevealObserver } from "@/components/RevealObserver";
 import "./globals.css";
 
@@ -35,9 +33,7 @@ export default function RootLayout({
     <html lang="en" className={`${lexend.variable} ${sourceSans.variable} h-full`}>
       <body className="min-h-full flex flex-col antialiased">
         <RevealObserver />
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   );

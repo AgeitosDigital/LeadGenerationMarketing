@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const leadTypes = [
   {
     title: "Auto Accidents",
-    body: "High-intent leads from drivers and passengers seeking representation after collisions — the core of our MVA pipeline.",
+    body: "High-intent leads from drivers and passengers seeking representation after collisions - the core of our MVA pipeline.",
   },
   {
     id: "commercial",
@@ -25,12 +25,12 @@ const leadTypes = [
   },
   {
     title: "Premises & Adjacent PI",
-    body: "Expand beyond MVA as your firm grows — with the same qualification standards and exclusive delivery.",
+    body: "Expand beyond MVA as your firm grows - with the same qualification standards and exclusive delivery.",
   },
 ];
 
 const benefits = [
-  "Exclusive access — not shared across competing firms",
+  "Exclusive access - not shared across competing firms",
   "Live transfer and warm handoff options",
   "Criteria matched to your practice and geography",
   "Real-time reporting on campaign and lead performance",
@@ -59,7 +59,7 @@ export default function LegalLeadsPage() {
           <p className="animate-fade-up delay-2 mt-6 max-w-2xl text-lg leading-relaxed text-white/75 md:text-xl">
             Millions of motor vehicle collisions occur in the U.S. every year.
             Ageitos Advertising helps personal injury firms capture the injured
-            plaintiffs actively seeking counsel — through Google, Meta, TikTok,
+            plaintiffs actively seeking counsel - through Google, Meta, TikTok,
             and precision digital acquisition.
           </p>
           <div className="animate-fade-up delay-3 mt-10">
@@ -79,7 +79,7 @@ export default function LegalLeadsPage() {
                 More qualified plaintiffs. Less wasted marketing spend.
               </h2>
               <p className="mt-5 text-lg leading-relaxed text-muted">
-                In personal injury, plaintiffs carry the burden of proof — and
+                In personal injury, plaintiffs carry the burden of proof - and
                 they look to experienced attorneys to shoulder that load. We
                 receive inquiries from people who need help now. Our job is to
                 qualify them and connect the right cases to your firm.
@@ -107,7 +107,7 @@ export default function LegalLeadsPage() {
               Lead Types
             </p>
             <h2 className="mt-3 font-headline text-3xl font-medium tracking-tight md:text-4xl">
-              Starting with motor vehicle accidents — expanding with your firm.
+              Starting with motor vehicle accidents - expanding with your firm.
             </h2>
           </div>
           <div className="mt-14 grid gap-8 sm:grid-cols-2">

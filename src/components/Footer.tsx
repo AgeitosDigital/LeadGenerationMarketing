@@ -15,7 +15,7 @@ export function Footer() {
               Ready to grow your personal injury practice?
             </h2>
             <p className="mt-4 max-w-md text-lg leading-relaxed text-white/70">
-              Submit the form and a partner specialist will contact you — or
+              Submit the form and a partner specialist will contact you - or
               call us at{" "}
               <a
                 href={`tel:${SITE.phoneTel}`}
@@ -42,7 +42,7 @@ export function Footer() {
           </Link>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/60">
             Exclusive motor vehicle accident leads for personal injury law
-            firms — powered by Google, Meta, TikTok, and precision digital
+            firms - powered by Google, Meta, TikTok, and precision digital
             acquisition.
           </p>
         </div>

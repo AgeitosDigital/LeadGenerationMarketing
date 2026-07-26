@@ -20,7 +20,7 @@ export default function ContactPage() {
             Let&apos;s talk about growing your firm.
           </h1>
           <p className="animate-fade-up delay-2 mt-6 max-w-xl text-lg leading-relaxed text-white/75">
-            Submit the form and a sales representative will contact you — or
+            Submit the form and a sales representative will contact you - or
             call{" "}
             <a
               href={`tel:${SITE.phoneTel}`}
@@ -42,7 +42,7 @@ export default function ContactPage() {
               </h2>
               <p className="mt-3 leading-relaxed text-muted">
                 Ideal for personal injury firms focused on motor vehicle
-                accidents who want exclusive, qualified leads — not shared
+                accidents who want exclusive, qualified leads - not shared
                 volume.
               </p>
             </div>

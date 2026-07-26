@@ -18,7 +18,7 @@ const distinctions = [
   {
     label: "Digital-First Brands",
     title: "Reaching consumers seeking legal help",
-    body: "Our campaigns meet injured drivers across Google, Meta, TikTok, and search — when intent is highest and timing matters most.",
+    body: "Our campaigns meet injured drivers across Google, Meta, TikTok, and search - when intent is highest and timing matters most.",
   },
   {
     label: "Best-in-Class Intake",
@@ -28,7 +28,7 @@ const distinctions = [
   {
     label: "In-House Marketing",
     title: "Creative, media, and performance under one roof",
-    body: "Strategy, creative, and optimization stay aligned — so messaging and media buying reinforce each other every week.",
+    body: "Strategy, creative, and optimization stay aligned - so messaging and media buying reinforce each other every week.",
   },
 ];
 
@@ -45,7 +45,7 @@ export default function AboutPage() {
             Helping law firms and clients connect.
           </h1>
           <p className="animate-fade-up delay-2 mt-6 max-w-2xl text-lg leading-relaxed text-white/75 md:text-xl">
-            We exist to elevate personal injury practices — creating positive
+            We exist to elevate personal injury practices - creating positive
             change by ensuring injured people find the right representation,
             faster.
           </p>
@@ -62,7 +62,7 @@ export default function AboutPage() {
               Maximize your firm&apos;s impact with better demand.
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted">
-              We partner with law firms to maximize their impact — providing
+              We partner with law firms to maximize their impact - providing
               exclusive leads and the digital infrastructure to reach new
               heights of growth, starting with motor vehicle accidents.
             </p>

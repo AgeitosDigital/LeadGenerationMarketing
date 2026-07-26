@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const steps = [
   {
     title: "Advertise",
-    body: "We reach injured consumers through Google, Meta, TikTok, YouTube, and high-intent search — meeting plaintiffs at the moment they need a lawyer.",
+    body: "We reach injured consumers through Google, Meta, TikTok, YouTube, and high-intent search - meeting plaintiffs at the moment they need a lawyer.",
   },
   {
     title: "Connect",
@@ -19,7 +19,7 @@ const steps = [
   },
   {
     title: "Qualify & Transfer",
-    body: "We screen for injury, liability indicators, treatment, and your firm’s criteria — then live-transfer or deliver warm exclusive leads to your team.",
+    body: "We screen for injury, liability indicators, treatment, and your firm’s criteria - then live-transfer or deliver warm exclusive leads to your team.",
   },
   {
     title: "Optimize",
@@ -38,7 +38,7 @@ const channels = [
   },
   {
     title: "TikTok & Video",
-    body: "Meet younger and mobile-first audiences where attention is — with compliant creative tuned for legal response.",
+    body: "Meet younger and mobile-first audiences where attention is - with compliant creative tuned for legal response.",
   },
   {
     title: "Landing Pages & SEO",
@@ -55,7 +55,7 @@ export default function HowItWorksPage() {
             How We Partner Together
           </p>
           <h1 className="animate-fade-up delay-1 mt-4 max-w-3xl font-headline text-4xl font-medium tracking-tight md:text-6xl">
-            From ad click to signed retainer — a clear path.
+            From ad click to signed retainer - a clear path.
           </h1>
           <p className="animate-fade-up delay-2 mt-6 max-w-2xl text-lg leading-relaxed text-white/75 md:text-xl">
             Ageitos Advertising specializes in live-connecting quality,
@@ -107,7 +107,7 @@ export default function HowItWorksPage() {
             </h2>
             <p className="mt-5 text-lg leading-relaxed text-muted">
               We blend creative and data-driven media buying to reach diverse
-              consumers nationwide — connecting with potential clients when
+              consumers nationwide - connecting with potential clients when
               they seek legal representation.
             </p>
             <div className="mt-10 grid gap-6 sm:grid-cols-2">

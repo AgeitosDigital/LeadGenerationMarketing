@@ -6,15 +6,15 @@ import { SITE } from "@/lib/constants";
 const differentiators = [
   {
     title: "Superior Leads",
-    body: "Consistent, high-intent MVA leads — screened for injury, liability, and readiness — so your intake team spends time on cases that convert.",
+    body: "Consistent, high-intent MVA leads - screened for injury, liability, and readiness - so your intake team spends time on cases that convert.",
   },
   {
     title: "Proven Digital Marketing",
-    body: "We run performance campaigns across Google, Meta, TikTok, and search — reaching injured drivers the moment they’re looking for help.",
+    body: "We run performance campaigns across Google, Meta, TikTok, and search - reaching injured drivers the moment they’re looking for help.",
   },
   {
     title: "Exclusive Delivery",
-    body: "Your firm receives exclusive leads matched to your criteria, markets, and capacity — not shared volume recycled across competitors.",
+    body: "Your firm receives exclusive leads matched to your criteria, markets, and capacity - not shared volume recycled across competitors.",
   },
   {
     title: "Qualified Intake",
@@ -70,7 +70,7 @@ const channels = [
 export default function HomePage() {
   return (
     <>
-      {/* Hero — Walker-style full-bleed */}
+      {/* Hero - Walker-style full-bleed */}
       <section className="relative flex min-h-[100svh] items-end overflow-hidden bg-royal text-white">
         <Image
           src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=2400&q=80"
@@ -95,7 +95,7 @@ export default function HomePage() {
           </h1>
           <p className="animate-fade-up delay-2 mt-6 max-w-xl text-lg leading-relaxed text-white/80 md:text-xl">
             Exclusive motor vehicle accident leads for personal injury law
-            firms — generated through high-intent digital advertising.
+            firms - generated through high-intent digital advertising.
           </p>
           <div className="animate-fade-up delay-3 mt-10 flex flex-wrap gap-4">
             <Button href="/contact#partner">Contact Us Now</Button>
@@ -154,7 +154,7 @@ export default function HomePage() {
               Why Partner With Ageitos?
             </p>
             <h2 className="mt-3 font-headline text-3xl font-medium tracking-tight md:text-4xl">
-              A marketing engine built around signed cases — not vanity metrics.
+              A marketing engine built around signed cases - not vanity metrics.
             </h2>
           </div>
 

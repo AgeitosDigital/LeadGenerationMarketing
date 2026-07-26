@@ -1,8 +1,8 @@
-# Meta Ads — Consumer MVA Lead Gen
+# Meta Ads - Consumer MVA Lead Gen
 
 **Audience:** Regular people who just got into a car / auto accident  
 **Goal:** Capture injury leads to sell to PI law firms  
-**Objective:** Leads (Instant Form) or Traffic → consumer intake landing page  
+**Objective:** Traffic or Leads → `https://YOUR-DOMAIN.com/free-case-review`  
 **Creatives:**
 - Feed: `feed-1080x1080.png`
 - Stories / Reels: `stories-1080x1920.png`
@@ -11,13 +11,13 @@
 
 ## Primary text (body)
 
-**Variant A — Direct**
+**Variant A - Direct**
 Injured in a car accident? You may be entitled to compensation. Get a free case review and speak with an injury attorney today.
 
-**Variant B — Urgency**
-Just in a crash? Don't wait for the insurance company to lowball you. Start a free case review now — no fee unless you win.
+**Variant B - Urgency**
+Just in a crash? Don't wait for the insurance company to lowball you. Start a free case review now - no fee unless you win.
 
-**Variant C — Empathy**
+**Variant C - Empathy**
 Hurt after a car accident and not sure what to do next? Get a free, no-obligation case review and know your options.
 
 ---
@@ -49,7 +49,7 @@ Hurt after a car accident and not sure what to do next? Get a free, no-obligatio
 | Intro text | Get a free case review. An attorney may be able to help. |
 | Questions | Full name, phone, email, ZIP, “Were you injured?”, accident date |
 | Privacy | Link your privacy policy |
-| Thank you | “Thanks — a specialist will call you shortly.” |
+| Thank you | “Thanks - a specialist will call you shortly.” |
 | CTA | Call / View website |
 
 ---
@@ -59,7 +59,7 @@ Hurt after a car accident and not sure what to do next? Get a free, no-obligatio
 - Interests: car accidents, personal injury, insurance claims, auto insurance
 - Behaviors: recently engaged shoppers; people who clicked similar lead ads
 - Geo: ZIP / DMA where you have attorney buyers ready to take leads
-- Age: 25–64 (adjust to your buyer criteria)
+- Age: 25-64 (adjust to your buyer criteria)
 - Exclude: people who already submitted (custom audience)
 
 **Exclude interests related to:** law firm marketing, legal marketing agencies, lead buying (keeps spend on consumers)
