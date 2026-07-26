@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+:root {
+  --aa-dark-navy: #2a2f35;
+  --aa-dark-blue: #4a5b72;
+  --aa-dusty-blue: #657380;
+  --aa-light-navy: #3b495b;
+  --aa-royal: #151a21;
+  --aa-seafoam: #bdd0c9;
+  --aa-seafoam-deep: #9bb5ab;
+  --aa-brown: #916f4d;
+  --aa-hairline: #e8e8e8;
+  --aa-bg: #f4f4f4;
+  --aa-text: #2a2f35;
+  --aa-muted: #657380;
+  --aa-white: #ffffff;
+}
+
+@theme inline {
+  --color-navy: var(--aa-dark-navy);
+  --color-navy-light: var(--aa-light-navy);
+  --color-royal: var(--aa-royal);
+  --color-dusty: var(--aa-dusty-blue);
+  --color-blue-muted: var(--aa-dark-blue);
+  --color-seafoam: var(--aa-seafoam);
+  --color-seafoam-deep: var(--aa-seafoam-deep);
+  --color-brown: var(--aa-brown);
+  --color-hairline: var(--aa-hairline);
+  --color-surface: var(--aa-bg);
+  --color-ink: var(--aa-text);
+  --color-muted: var(--aa-muted);
+  --font-headline: var(--font-lexend);
+  --font-body: var(--font-source);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--aa-white);
+  color: var(--aa-text);
+  font-family: var(--font-source), system-ui, sans-serif;
+}
+
+::selection {
+  background: var(--aa-seafoam);
+  color: var(--aa-royal);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hero-kenburns {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.85s ease-out both;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.7s ease-out both;
+}
+
+.animate-hero-image {
+  animation: hero-kenburns 12s ease-out both;
+}
+
+.delay-1 {
+  animation-delay: 0.12s;
+}
+.delay-2 {
+  animation-delay: 0.24s;
+}
+.delay-3 {
+  animation-delay: 0.36s;
+}
+.delay-4 {
+  animation-delay: 0.48s;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s ease-out,
+    transform 0.7s ease-out;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
